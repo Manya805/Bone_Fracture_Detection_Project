@@ -70,13 +70,6 @@ H --> I[Evaluation & Comparison]
 
 ---
 
-## ⚙️ How to Run the Project
-
-Follow these steps to train, evaluate, and visualize both models.
-
----
-* * * * *
-
 4\. Steps to Run
 ----------------
 
@@ -126,10 +119,16 @@ XGBoost outperformed CNN across most metrics, particularly in precision, AUC, an
 ### Visual Results
 
 #### 📈 Performance Metrics Comparison
+<img width="1000" height="600" alt="metrics_comparison" src="https://github.com/user-attachments/assets/d22fdd7b-da67-45d3-bbea-c03378071211" />
+
 
 #### 🧩 Confusion Matrices
+<img width="1000" height="400" alt="confusion_matrices" src="https://github.com/user-attachments/assets/857ad552-020a-4f14-b953-2c91c063f058" />
+
 
 #### 🚦 ROC Curve Comparison
+<img width="700" height="600" alt="roc_comparison" src="https://github.com/user-attachments/assets/70dca925-84a9-4ed8-b9bc-7bf672c27aa6" />
+
 
 * * * * *
 

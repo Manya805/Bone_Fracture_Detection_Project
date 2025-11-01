@@ -2,7 +2,7 @@
 
 # Fracture Detection using CNN and XGBoost
 
-## 1. Title and Short Description
+## 1. About Project
 This project implements **automated bone fracture detection** using X-ray images.  
 It compares two machine learning approaches:
 - A **Convolutional Neural Network (CNN)** trained end-to-end on images.

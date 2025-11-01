@@ -58,8 +58,6 @@ H --> I[Evaluation & Comparison]
 ```
 
 
-#Fracture Detection using CNN and XGBoost
-
 ## 🧠 Why These Methods
 
 - **CNN** learns **spatial visual cues** such as bone discontinuities, texture patterns, and shape irregularities directly from raw pixel values — ideal for detecting fractures in X-ray imagery.  
@@ -77,15 +75,6 @@ H --> I[Evaluation & Comparison]
 Follow these steps to train, evaluate, and visualize both models.
 
 ---
-
-### Why These Methods
-
--   **CNN** learns spatial visual cues such as bone discontinuities and texture directly from pixels.
-
--   **EfficientNet + XGBoost** provides a compact, interpretable, and data-efficient pipeline.
-
--   This hybrid comparison helps assess the trade-offs between full deep learning and boosted-tree models.
-
 * * * * *
 
 4\. Steps to Run
@@ -195,5 +184,4 @@ XGBoost outperformed CNN across most metrics, particularly in precision, AUC, an
 
 6.  XGBoost Documentation --- <https://xgboost.readthedocs.io>
 
-pip install -r requirements.txt
-```
+

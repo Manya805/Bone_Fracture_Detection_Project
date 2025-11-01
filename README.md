@@ -81,13 +81,15 @@ Follow these steps to train, evaluate, and visualize both models.
 ### 🧩 Install Dependencies
 ```bash
 pip install -r requirements.txt
-```
+
+---
+
 #🧠 Train CNN
 ```bash
 python fracture_detect.py
 ```
 
-#📘 Description
+##📘 Description
 
 This script:
 

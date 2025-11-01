@@ -55,3 +55,31 @@ F --> G[XGBoost Classifier]
 E --> H[Fracture / Not Fracture]
 G --> H
 H --> I[Evaluation & Comparison]
+
+
+# 🦴 Fracture Detection using CNN and XGBoost
+
+## 🧠 Why These Methods
+
+- **CNN** learns **spatial visual cues** such as bone discontinuities, texture patterns, and shape irregularities directly from raw pixel values — ideal for detecting fractures in X-ray imagery.  
+
+- **EfficientNet + XGBoost** provides a **compact, interpretable, and data-efficient pipeline**, combining pretrained visual feature extraction with a robust tree-based classifier.  
+
+- This **hybrid comparison** highlights the **trade-offs** between:
+  - End-to-end **deep learning** (CNN: better recall and visual understanding)
+  - and **boosted-tree models** (XGBoost: better interpretability, speed, and accuracy on smaller datasets).
+
+---
+
+## ⚙️ How to Run the Project
+
+Follow these steps to train, evaluate, and visualize both models.
+
+---
+
+### 🧩 Install Dependencies
+```bash
+pip install -r requirements.txt
+
+🧠# Train CNN
+

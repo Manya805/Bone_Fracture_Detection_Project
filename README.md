@@ -81,7 +81,7 @@ Follow these steps to train, evaluate, and visualize both models.
 ```bash
 pip install -r requirements.txt
 
-🧠 Train CNN
+🧠# Train CNN
 
 To train the Convolutional Neural Network on your dataset:
 
@@ -96,7 +96,7 @@ Trains a CNN model for binary classification (fractured vs not fractured).
 
 Saves the trained model as fracture_detection_model.h5 and also converts it to a .tflite model for lightweight inference.
 
-🌲 Train XGBoost on Deep Features
+🌲 #Train XGBoost on Deep Features
 
 Train the XGBoost classifier on deep visual features extracted from EfficientNetB0:
 

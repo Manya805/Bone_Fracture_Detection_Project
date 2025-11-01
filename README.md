@@ -57,7 +57,7 @@ G --> H
 H --> I[Evaluation & Comparison]
 
 
-# 🦴 Fracture Detection using CNN and XGBoost
+#Fracture Detection using CNN and XGBoost
 
 ## 🧠 Why These Methods
 

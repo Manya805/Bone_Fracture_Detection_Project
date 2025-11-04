@@ -72,29 +72,29 @@ H --> I[Evaluation & Comparison]
 4\. Steps to Run
 ----------------
 
-###  Install Dependencies
+###  a) Install Dependencies
 
-`pip install -r requirements.txt`
+  `  pip install -r requirements.txt`
 
-###  Train CNN
+###  b) Train CNN
 
-`python fracture_detect.py`
+  `  python fracture_detect.py`
 
-###  Train XGBoost on Deep Features
+###  c) Train XGBoost on Deep Features
 
-`python tree_on_features.py`
+  `  python tree_on_features.py`
 
-###  Evaluate and Compare
+###  d) Evaluate and Compare
 
-`python evaluate.py`
+  `  python evaluate.py`
 
-or run the notebook version:
+    or run the notebook version:
 
-`evaluate.ipynb`
+  `  evaluate.ipynb`
 
-###  Launch Streamlit App
+###  e) Launch Streamlit App
 
-`streamlit run app.py`
+  `  streamlit run app.py`
 
 All outputs (plots + metrics) are saved in the **`results/`** folder.
 

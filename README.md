@@ -74,27 +74,27 @@ H --> I[Evaluation & Comparison]
 
 ###  a) Install Dependencies
 
-  `  pip install -r requirements.txt`
+  ` pip install -r requirements.txt `
 
 ###  b) Train CNN
 
-  `  python fracture_detect.py`
+  ` python fracture_detect.py `
 
 ###  c) Train XGBoost on Deep Features
 
-  `  python tree_on_features.py`
+  ` python tree_on_features.py `
 
 ###  d) Evaluate and Compare
 
-  `  python evaluate.py`
+  ` python evaluate.py `
 
     or run the notebook version:
 
-  `  evaluate.ipynb`
+  ` evaluate.ipynb `
 
 ###  e) Launch Streamlit App
 
-  `  streamlit run app.py`
+  ` streamlit run app.py `
 
 All outputs (plots + metrics) are saved in the **`results/`** folder.
 
@@ -174,7 +174,7 @@ XGBoost outperformed CNN across most metrics, particularly in precision, AUC, an
 
 2.  Chen, T., & Guestrin, C. (2016). *XGBoost: A Scalable Tree Boosting System.*
 
-3.  Kaggle Dataset: *Bone Fracture Detection* --- <[https://www.kaggle.com](https://www.kaggle.com/datasets/pkdarabi/bone-fracture-detection-computer-vision-project)>
+3.  Kaggle Dataset: *Bone Fracture Detection* --- <[https://www.kaggle.com/datasets/pkdarabi/bone-fracture-detection-computer-vision-project]>
 
 4.  Chollet, F. (2017). *Deep Learning with Python.* Manning Publications.
 

@@ -57,7 +57,7 @@ H --> I[Evaluation & Comparison]
 ```
 
 
-## 🧠 Why These Methods
+## Why These Methods
 
 - **CNN** learns **spatial visual cues** such as bone discontinuities, texture patterns, and shape irregularities directly from raw pixel values — ideal for detecting fractures in X-ray imagery.  
 
@@ -72,19 +72,19 @@ H --> I[Evaluation & Comparison]
 4\. Steps to Run
 ----------------
 
-### 🧩 Install Dependencies
+###  Install Dependencies
 
 `pip install -r requirements.txt`
 
-### 🧠 Train CNN
+###  Train CNN
 
 `python fracture_detect.py`
 
-### 🌲 Train XGBoost on Deep Features
+###  Train XGBoost on Deep Features
 
 `python tree_on_features.py`
 
-### 📊 Evaluate and Compare
+###  Evaluate and Compare
 
 `python evaluate.py`
 
@@ -92,7 +92,7 @@ or run the notebook version:
 
 `evaluate.ipynb`
 
-### 💻 Launch Streamlit App
+###  Launch Streamlit App
 
 `streamlit run app.py`
 
@@ -117,15 +117,15 @@ XGBoost outperformed CNN across most metrics, particularly in precision, AUC, an
 
 ### Visual Results
 
-#### 📈 Performance Metrics Comparison
+#### Performance Metrics Comparison
 <img width="1000" height="600" alt="metrics_comparison" src="https://github.com/user-attachments/assets/d22fdd7b-da67-45d3-bbea-c03378071211" />
 
 
-#### 🧩 Confusion Matrices
+####  Confusion Matrices
 <img width="1000" height="400" alt="confusion_matrices" src="https://github.com/user-attachments/assets/857ad552-020a-4f14-b953-2c91c063f058" />
 
 
-#### 🚦 ROC Curve Comparison
+####  ROC Curve Comparison
 <img width="700" height="600" alt="roc_comparison" src="https://github.com/user-attachments/assets/70dca925-84a9-4ed8-b9bc-7bf672c27aa6" />
 
 
